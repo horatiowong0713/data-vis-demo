@@ -1,0 +1,43 @@
+svg {
+  border: 1px solid gray;
+  border-radius: 10px;
+  height: 600px;
+  width: 600px;
+  margin: 5px;
+}
+#wrapper {
+  margin: auto;
+  width: 1440px;
+}
+input {
+  width: 50px;
+}
+#linechart {
+  width: 800px;
+}
+
+html {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.countrymap {
+  stroke: black;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+.tooltip {
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid black;
+  pointer-events: none;
+}
